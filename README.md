@@ -1,7 +1,7 @@
 # **Next (t3 stack starter) - Project Documentation** - Bishwa Jung Shah
 
 ## **Project Overview**
-This is a modern web application built with **Next.js** and **TypeScript**. It utilizes various libraries such as **Drizzle ORM** for database handling, **Tailwind CSS** for styling, and **Zustand** for state management. The project includes custom utility functions and hooks for managing different aspects of the application efficiently.
+This is a modern web application built with **Next.js** and **TypeScript**. It utilizes various libraries such as  **Tailwind CSS** for styling, and **Zustand** for state management. The project includes custom utility functions and hooks for managing different aspects of the application efficiently.
 
 ---
 
@@ -49,11 +49,9 @@ The following dependencies are included in this project:
 - **class-variance-authority**: Utility for managing class names with variance.
 - **clsx**: A utility for conditional class name management.
 - **dayjs**: A lightweight date library for parsing, validating, manipulating, and formatting dates.
-- **drizzle-orm**: ORM for managing database queries with TypeScript support.
 - **geist**: Geist UI for building modern user interfaces.
 - **lucide-react**: Icon library for React.
 - **next**: Framework for building React applications.
-- **postgres**: PostgreSQL database client.
 - **tailwind-merge**: Tailwind CSS utility for merging class names.
 - **tailwindcss-animate**: Tailwind CSS plugin for animations.
 - **zod**: Type-safe schema validation library.
@@ -62,7 +60,6 @@ The following dependencies are included in this project:
 ### **Dev Dependencies:**
 - **eslint**: Linting utility for maintaining code quality.
 - **prettier**: Code formatter for consistent style.
-- **drizzle-kit**: CLI tool for managing Drizzle ORM migrations.
 - **typescript**: TypeScript support for static type checking.
 
 ---
@@ -163,10 +160,6 @@ The following scripts are available for this project:
 - **`yarn lint`**: Runs the linter to check for code style issues.
 - **`yarn lint:fix`**: Automatically fixes linting errors.
 - **`yarn check`**: Runs linting and TypeScript checks without emitting files.
-- **`yarn db:generate`**: Generates database schema files using Drizzle ORM.
-- **`yarn db:migrate`**: Applies database migrations.
-- **`yarn db:push`**: Pushes changes to the database schema.
-- **`yarn db:studio`**: Opens the database studio for visual interaction with the database.
 - **`yarn format:write`**: Formats all code files with Prettier.
 - **`yarn format:check`**: Checks if the code is formatted according to Prettier rules.
 
@@ -176,7 +169,6 @@ The following scripts are available for this project:
 
 List any environment variables required for this project. For example:
 
-- `DATABASE_URL`: The URL for connecting to the PostgreSQL database.
 - `NEXT_PUBLIC_API_URL`: The base URL for your API.
 
 ---

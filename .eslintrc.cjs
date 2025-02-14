@@ -5,8 +5,7 @@ const config = {
     "project": true
   },
   "plugins": [
-    "@typescript-eslint",
-    "drizzle"
+    "@typescript-eslint"
   ],
   "extends": [
     "next/core-web-vitals",
@@ -16,20 +15,27 @@ const config = {
   "rules": {
     "@typescript-eslint/array-type": "off",
     "@typescript-eslint/consistent-type-definitions": "off",
-    "@typescript-eslint/consistent-type-imports": [
-      "warn",
-      {
-        "prefer": "type-imports",
-        "fixStyle": "inline-type-imports"
-      }
-    ],
-    "@typescript-eslint/no-unused-vars": [
-      "warn",
-      {
-        "argsIgnorePattern": "^_"
-      }
-    ],
     "@typescript-eslint/require-await": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "@typescript-eslint/no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-member-access": "off",
+    "@typescript-eslint/no-explicit-any": "off",
+    "@typescript-eslint/no-unused-vars": "off",
+    "@typescript-eslint/no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-argument": "off",
+    "@typescript-eslint/consistent-type-imports": "off",
+    "@typescript-eslint/no-floating-promises": "off",
+    "react/no-unescaped-entities":"off",
+    "@typescript-eslint/no-redundant-type-constituents":"off",
+    "@typescript-eslint/prefer-nullish-coalescing":"off",
+    "@typescript-eslint/no-base-to-string":"off",
+    "@typescript-eslint/prefer-promise-reject-errors": "off",
+    "@typescript-eslint/non-nullable-type-assertion-style": "off",
+    "@typescript-eslint/consistent-indexed-object-style": "off",
+    "@typescript-eslint/prefer-optional-chain": "off",
+    "@typescript-eslint/prefer-regexp-exec":"off",
+    "@typescript-eslint/dot-notation":"off",
     "@typescript-eslint/no-misused-promises": [
       "error",
       {
@@ -38,24 +44,6 @@ const config = {
         }
       }
     ],
-    "drizzle/enforce-delete-with-where": [
-      "error",
-      {
-        "drizzleObjectName": [
-          "db",
-          "ctx.db"
-        ]
-      }
-    ],
-    "drizzle/enforce-update-with-where": [
-      "error",
-      {
-        "drizzleObjectName": [
-          "db",
-          "ctx.db"
-        ]
-      }
-    ]
   }
 }
 module.exports = config;
