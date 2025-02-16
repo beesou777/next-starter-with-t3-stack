@@ -20,6 +20,7 @@ next-env.d.ts
 
 # production
 /build
+*.xml
 
 # misc
 .DS_Store
@@ -44,3 +45,14 @@ yarn-error.log*
 
 # idea files
 .idea
+
+# postbuild
+robots.txt
+sitemap.xml
+sitemap-*.xml
+*.tsbuildinfo
+/.swc
+
+# logs
+.logs
+*.log
