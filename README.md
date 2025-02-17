@@ -1,4 +1,4 @@
-# **Next (t3 stack starter) - Project Documentation** - Bishwa Jung Shah
+# **Next (t3 stack starter) - Project Documentation**
 
 ## **Project Overview**
 This is a modern web application built with **Next.js** and **TypeScript**. It utilizes various libraries such as  **Tailwind CSS** for styling, and **Zustand** for state management. The project includes custom utility functions and hooks for managing different aspects of the application efficiently.
@@ -56,6 +56,7 @@ The following dependencies are included in this project:
 - **tailwindcss-animate**: Tailwind CSS plugin for animations.
 - **zod**: Type-safe schema validation library.
 - **zustand**: A small, fast state management solution for React.
+- **tanstack-query** : For api and sample example added
 
 ### **Dev Dependencies:**
 - **eslint**: Linting utility for maintaining code quality.

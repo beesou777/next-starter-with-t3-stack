@@ -29,12 +29,15 @@ export const footerSections: { title: string; links: FooterLink[] }[] = [
     ],
   },
   {
-    title: "Services",
+    title: "Help & Support",
     links: [
-      { text: "Create Event", href: "/create-event" },
-      { text: "Find Event", href: "/event" },
-      { text: "Why EventEir", href: "/" },
-      { text: "Fees & Prices", href: "/" },
+      { text: "About Us", href: "/" },
+      { text: "Blog", href: "/blogs" },
+      { text: "Contact Us", href: "/" },
+      { text: "FAQs", href: "/" },
+      { text: "Terms of Use", href: "/" },
+      { text: "Media Kit", href: "/" },
+      { text: "Privacy Policy", href: "/" },
     ],
   },
   {

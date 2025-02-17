@@ -8,8 +8,16 @@ import "./src/env.js";
 const config = {
     images:{
         domains:[
-            "i.postimg.cc"
-        ]
+            "i.postimg.cc",
+            "cdn.dummyjson.com"
+        ],
+        remotePatterns: [
+            {
+              protocol: "https",
+              hostname: "*",
+              pathname: "/**",
+            },
+          ],
     }
 };
 

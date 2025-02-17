@@ -1,10 +1,10 @@
 import React from 'react'
-import SampleComponent from './components/sample-component'
+import ProductPagination from './components/product-data'
 
 const Events = () => {
   return (
     <>
-    <SampleComponent/>
+    <ProductPagination/>
     </>
   )
 }
