@@ -1,11 +1,11 @@
 import "~/styles/globals.css";
-
 import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 import Footer from "~/components/common/footer";
 import { Navbar } from "~/components/common/navbar";
+import { TanstackProvider } from "~/components/provider/tanstack-provider";
 
 export const metadata: Metadata = {
   title: "Event Booking",
@@ -19,11 +19,13 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
-        <Navbar/>
-        {children}
-        <ToastContainer />
-        <Footer/>
-        </body>
+        <TanstackProvider>
+          <Navbar />
+          {children}
+          <ToastContainer />
+          <Footer />
+        </TanstackProvider>
+      </body>
     </html>
   );
 }
